@@ -1,0 +1,25 @@
+{
+  "name": "demo-vulnerable-node-app",
+  "version": "1.0.0",
+  "description": "A deliberately vulnerable Node.js application for security testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "vulnerable",
+    "security",
+    "testing",
+    "demo"
+  ],
+  "author": "Security Testing Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
