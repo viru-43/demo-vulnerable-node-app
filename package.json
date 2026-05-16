@@ -1,25 +1,23 @@
 {
-  "name": "demo-vulnerable-node-app",
+  "name": "vulnerable-repo",
   "version": "1.0.0",
-  "description": "A deliberately vulnerable Node.js application for security testing",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "vulnerable",
-    "security",
-    "testing",
-    "demo"
-  ],
-  "author": "Security Testing Team",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kim815/vulnerable-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kim815/vulnerable-repo/issues"
+  },
+  "homepage": "https://github.com/kim815/vulnerable-repo#readme",
   "dependencies": {
-    "axios": "0.21.1"
-  },
-  "devDependencies": {
-    "nodemon": "2.0.7"
+    "axios": "0.18.0"
   }
 }

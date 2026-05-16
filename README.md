@@ -1,1 +1,0 @@
-# demo-vulnerable-node-app
