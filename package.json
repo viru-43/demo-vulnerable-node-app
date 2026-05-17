@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/kim815/vulnerable-repo#readme",
   "dependencies": {
-    "axios": "0.18.0"
+    "axios": "^1.16.1"
   }
 }
